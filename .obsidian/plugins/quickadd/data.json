@@ -1,5 +1,32 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "8ff8adbd-c66a-44b7-b7dc-65c27e2faa38",
+      "name": "Pilier",
+      "type": "Template",
+      "command": false,
+      "templatePath": "500 /",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
   "macros": [],
   "inputPrompt": "single-line"
 }

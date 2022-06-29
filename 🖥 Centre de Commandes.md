@@ -11,7 +11,16 @@ title: "\U0001F5A5️ Centre de Commandes"
 [[🧭 Zone d'Alignement]]
 [[🔮 Labo de Connaissances]]
 
-- ##  **Piliers**
+## Cycles
+- **Cycles de Revue**
+    - [[210 🌄 Jours|🌄 Jours]]
+    - [[220 🗓 Semaines|🗓 Semaines]]
+    - [[230 📅 Mois|📅 Mois]]
+    - [[240 ⌛️ Trimestres|⌛️ Trimestres]]
+    - [[250 🌏 Années|🌏 Années]]
+
+## Tableaux de bord
+- ###  **Piliers**
     - [[💗 Health & Fitness]]
     - [[🤯 Mind Expansion]]
     - [[☯️ Mental Clarity]]
@@ -29,18 +38,13 @@ title: "\U0001F5A5️ Centre de Commandes"
 
 ## Fronton
 
-- **Take Action**
+- **Pyramide d'Accomplissement**
     - [[110 🛠 Actions|🛠 Actions]]
     - [[120 🧗 Projets|🧗 Projets]]
     - [[130 🎯 Objectifs|🎯 Objectifs]]
     - [[Et|🎨 Missions]]
 
-- **Cycles de Revue**
-    - [[210 🌄 Jours|🌄 Jours]]
-    - [[220 🗓 Semaines|🗓 Semaines]]
-    - [[230 📅 Mois|📅 Mois]]
-    - [[240 ⌛️ Trimestres|⌛️ Trimestres]]
-    - [[250 🌏 Années|🌏 Années]]
+
 
 
 ## Salle des Coffres
