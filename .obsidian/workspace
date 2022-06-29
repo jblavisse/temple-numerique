@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "🚀 Zone d'Action.md",
+            "file": "🖥 Centre de Commandes.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🚀 Zone d'Action.md",
+                "file": "🖥 Centre de Commandes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "e5818c308b2285fe",
   "lastOpenFiles": [
+    "🖥 Centre de Commandes.md",
+    "🧭 Zone d'Alignement.md",
+    "200 ♻️ Cycles/220 🗓 Semaines/220 🗓 Semaines.md",
     "🚀 Zone d'Action.md",
     "200 ♻️ Cycles/210 🌄 Jours/2022-06-29.md",
     "200 ♻️ Cycles/210 🌄 Jours/210 🌄 Jours.md",
     "500🔒 Salle des coffres/510 Templates/🌄 Nouveau Jour.md",
     "500🔒 Salle des coffres/510 Templates/🛠 Nouvelle Action.md",
     "100 🛆 Fronton/110 🛠 Actions/20220629120537.md",
-    "2022-06-30.md",
-    "100 🛆 Fronton/110 🛠 Actions/110 🛠 Actions.md",
-    "100 🛆 Fronton/110 🛠 Actions/20220629114946.md",
-    "🧭 Zone d'Alignement.md"
+    "2022-06-30.md"
   ]
 }
