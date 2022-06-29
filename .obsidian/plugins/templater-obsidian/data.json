@@ -1,0 +1,61 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "500🔒 Salle des coffres/510 Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "100 🛆 Fronton/110 🛠 Actions",
+      "template": "500🔒 Salle des coffres/510 Templates/🛠 Nouvelle Action.md"
+    },
+    {
+      "folder": "100 🛆 Fronton/120 🧗 Projets",
+      "template": "500🔒 Salle des coffres/510 Templates/🧗 Nouveau Projet.md"
+    },
+    {
+      "folder": "100 🛆 Fronton/130 🎯 Objectifs",
+      "template": "500🔒 Salle des coffres/510 Templates/🎯 Nouvel Objectif.md"
+    },
+    {
+      "folder": "100 🛆 Fronton/140 🎨 Missions",
+      "template": "500🔒 Salle des coffres/510 Templates/🎨 Nouvelle Mission.md"
+    },
+    {
+      "folder": "200 ♻️ Cycles/250 🌏 Années",
+      "template": "500🔒 Salle des coffres/510 Templates/🌏 Nouvelle Année.md"
+    },
+    {
+      "folder": "200 ♻️ Cycles/240 ⌛️ Trimestres",
+      "template": "500🔒 Salle des coffres/510 Templates/⌛️ Nouveau Trimestre.md"
+    },
+    {
+      "folder": "200 ♻️ Cycles/230 📅 Mois",
+      "template": "500🔒 Salle des coffres/510 Templates/📅 Nouveau Mois.md"
+    },
+    {
+      "folder": "200 ♻️ Cycles/220 🗓 Semaines",
+      "template": "500🔒 Salle des coffres/510 Templates/🗓 Nouvelle Semaine.md"
+    },
+    {
+      "folder": "200 ♻️ Cycles/210 🌄 Jours",
+      "template": "500🔒 Salle des coffres/510 Templates/🌄 Nouveau Jour.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ]
+}
