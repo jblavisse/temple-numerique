@@ -1,12 +1,12 @@
 ---
 alias:
-- 🧗 Projects
+- 🧗 Projets
 tags:
 - dashboard
 ---
 
-# 🧗 Projects
-## Active
+# 🧗 Projets
+## Actif
 ```dataviewjs
 const {DvActions} = customJS
 DvActions.getNewFileButton({
@@ -14,8 +14,8 @@ DvActions.getNewFileButton({
     dv,
     luxon,
     that:this,
-    buttonName:"🧗 New Project",
-    folder:"300 🚰 Pipelines/330 🧗 Projects",
+    buttonName:"🧗 Nouveau Projet",
+    folder:"100 🛆 Fronton/120 🧗 Projets",
     split:true
 })
 ```
@@ -36,7 +36,7 @@ dv.table(
 );
 ```
 
-### Next Up
+### Prochainement
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;
 let projects = dv.pages("#project");
@@ -54,7 +54,7 @@ dv.table(
 );
 ```
 
-### Future
+### Plus tard
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;
 let projects = dv.pages("#project");
@@ -72,7 +72,7 @@ dv.table(
 );
 ```
 
-## Done
+## Complété
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;
 let projects = dv.pages("#project");

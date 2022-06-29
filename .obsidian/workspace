@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e5818c308b2285fe",
+        "id": "2dc7a982c21bc658",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "🖥 Centre de Commandes.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "full-calendar-view",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🖥 Centre de Commandes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e5818c308b2285fe",
+  "active": "2dc7a982c21bc658",
   "lastOpenFiles": [
+    "🚀 Zone d'Action.md",
+    "100 🛆 Fronton/110 🛠 Actions/110 🛠 Actions.md",
     "🖥 Centre de Commandes.md",
     "🧭 Zone d'Alignement.md",
+    "100 🛆 Fronton/120 🧗 Projets/120 🧗 Projets.md",
     "🔮 Labo de Connaissances.md",
-    "🚀 Zone d'Action.md",
     "500🔒 Salle des coffres/510 Templates/📝 Nouvelle Note.md",
     "500🔒 Salle des coffres/510 Templates/🗓 Nouvelle Semaine.md",
     "500🔒 Salle des coffres/510 Templates/🧗 Nouveau Projet.md",
-    "500🔒 Salle des coffres/510 Templates/🛠 Nouvelle Action.md",
-    "500🔒 Salle des coffres/510 Templates/🛠 Nouvelle Réunion.md",
-    "100 🛆 Fronton/130 🎯 Objectifs/130 🎯 Objectifs.md"
+    "500🔒 Salle des coffres/510 Templates/🛠 Nouvelle Action.md"
   ]
 }
