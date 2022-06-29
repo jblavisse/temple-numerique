@@ -29,7 +29,7 @@ DvActions.getNewFileButton({
 })
 ```
 
-## Today
+## Aujourd'hui
 
  ```dataviewjs
 const {DvActions, ObsidianUtils} = customJS;
@@ -53,7 +53,7 @@ dv.table(
         b.file.link,
         "🎂🔜",
         `[[${b["birthday-this-year-obj"].toFormat("yyyy-MM-dd")}]]`,
-        
+
     ]).concat(
         todayActions.map(action => [
             ObsidianUtils.getDisplayLink(action.file.name, action.alias[0]),
@@ -67,7 +67,7 @@ dv.table(
 );
 ```
 
-## Tomorrow
+## Demain
 
 ```dataviewjs
 const {DvActions, ObsidianUtils} = customJS;
@@ -94,7 +94,7 @@ for (let action of tomorrowActions) {
 }
 ```
 
-## Next 7 Days
+## Semaine à venir
 
 ```dataviewjs
 const {DvActions, ObsidianUtils} = customJS;
@@ -118,34 +118,34 @@ for (let day of groupedNext7Days) {
 }
 ```
 
-## Calendar?
+## Calendrier - Dates Cibles
 
 ```dataviewjs
-// const { DvActions } = customJS;
-// const { renderCalendar } = app.plugins.plugins["obsidian-full-calendar"];
-// let now = luxon.DateTime.now();
-// let nextDays = luxon.Duration.fromISO("P1W");
-// let actions = DvActions.getActions({
-//     luxon,
-//     dv,
-//     start: now,
-//     end: now.plus(nextDays).endOf('day')
-// }).where(a => a["startTime"] != null && a["endTime"] != null);
-// actions = actions.map(a => {
-//         return {
-//             startDate: a["date"],
-//             startTime: a["startTime"],
-//             endTime: a["endTime"],
-//             id: `${a.file.name}`,
-//             title: a["title"]
-//         }
-//     }).array();
+const { DvActions } = customJS;
+const { renderCalendar } = app.plugins.plugins["obsidian-full-calendar"];
+let now = luxon.DateTime.now();
+let nextDays = luxon.Duration.fromISO("P1W");
+let actions = DvActions.getActions({
+    luxon,
+    dv,
+    start: now,
+    end: now.plus(nextDays).endOf('day')
+}).where(a => a["startTime"] != null && a["endTime"] != null);
+actions = actions.map(a => {
+        return {
+            startDate: a["date"],
+            startTime: a["startTime"],
+            endTime: a["endTime"],
+            id: `${a.file.name}`,
+            title: a["title"]
+        }
+    }).array();
 
-// dv.el("p", actions)
+dv.el("p", actions)
 
-// let calendar = renderCalendar(
-//     this.container,
-//     actions
-// );
-// calendar.render();
+let calendar = renderCalendar(
+    this.container,
+    actions
+);
+calendar.render();
 ```
