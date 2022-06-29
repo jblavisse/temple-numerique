@@ -4,5 +4,7 @@
   "alwaysUpdateLinks": true,
   "readableLineLength": false,
   "spellcheck": true,
-  "useTab": false
+  "useTab": false,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "500🔒 Salle des coffres/520 Pièces Jointes"
 }

@@ -1,3 +1,11 @@
+---
+tags:
+- dashboard
+cssclass: dashboard
+title: "\U0001F5A5️ Centre de Commandes"
+---
+
+
 ## Focus & Alignement
 [[🚀 Zone d'Action]]
 [[🧭 Zone d'Alignement]]
@@ -23,7 +31,7 @@
 
 - **Take Action**
     - [[110 🛠 Actions|🛠 Actions]]
-    - [[120 🧗 Projets|🧗 Projects]]
+    - [[120 🧗 Projets|🧗 Projets]]
     - [[130 🎯 Objectifs|🎯 Outcomes]]
     - [[Et|🎨 Objectives]]
 
