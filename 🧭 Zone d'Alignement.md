@@ -11,19 +11,19 @@ icon: 🧭
 
 ## Cycles
 
-## Weekly Insight
+### Aperçu Hebdomadaire
 
 ![[220 🗓 Semaines|🗓 Semaines]] 
 
-## Monthly Insight
+### Aperçu Mensuel
 
 ![[550 📅 Months|📅 Months]]
 
-## Quarterly & Monthly Insight
+### Aperçu Trimestriel
 
 ![[570 ⌛️ Quarters]]
 
-## Annual Plan & Insight
+### Programme de l'Année & Aperçu
 
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;

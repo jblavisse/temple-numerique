@@ -15,7 +15,7 @@ DvActions.getNewFileButton({
     luxon,
     that:this,
     buttonName:"🗓 Nouvelle Semaine",
-    folder:"200 ♻️ Cycles/520 🗓 Semaines",
+    folder:"200 ♻️ Cycles/220 🗓 Semaines",
     nameFormat:"yyyy'-W'WW",
     split:true
 })
@@ -34,7 +34,7 @@ let activeWeeks = weeks
     .sort(p => p.file.name, 'desc');
 
 dv.table(
-    ["Week", "Wins", "Challenges", "Improvements", "Reviewed"],
+    ["Semaine", "Victoires", "Challenges", "Améliorations", "Revue"],
     activeWeeks.map(p => [
         p.file.link,
         p["wins"],

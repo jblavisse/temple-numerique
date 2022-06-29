@@ -11,7 +11,7 @@ title: "\U0001F5A5️ Centre de Commandes"
 [[🧭 Zone d'Alignement]]
 [[🔮 Labo de Connaissances]]
 
-- ##  **Pillars**
+- ##  **Piliers**
     - [[💗 Health & Fitness]]
     - [[🤯 Mind Expansion]]
     - [[☯️ Mental Clarity]]
@@ -27,15 +27,15 @@ title: "\U0001F5A5️ Centre de Commandes"
     - [[💻 Individual Contribution (Write Code)|💻 Individual Contribution]]
     - [[💾 Admin & Team]]
 
-## Pipelines
+## Fronton
 
 - **Take Action**
     - [[110 🛠 Actions|🛠 Actions]]
     - [[120 🧗 Projets|🧗 Projets]]
-    - [[130 🎯 Objectifs|🎯 Outcomes]]
-    - [[Et|🎨 Objectives]]
+    - [[130 🎯 Objectifs|🎯 Objectifs]]
+    - [[Et|🎨 Missions]]
 
-- **Review Cycles**
+- **Cycles de Revue**
     - [[210 🌄 Jours|🌄 Jours]]
     - [[220 🗓 Semaines|🗓 Semaines]]
     - [[230 📅 Mois|📅 Mois]]
@@ -43,9 +43,4 @@ title: "\U0001F5A5️ Centre de Commandes"
     - [[250 🌏 Années|🌏 Années]]
 
 
-## Vaults
-
-- [[🔮 Knowledge Vault]]
-- [[Notes]]
-- [[Media Vault]]
-- [[People]]
+## Salle des Coffres
