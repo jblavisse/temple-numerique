@@ -7,8 +7,12 @@
         "id": "e5818c308b2285fe",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "🚀 Zone d'Action.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🚀 Zone d'Action.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,8 @@
   },
   "active": "e5818c308b2285fe",
   "lastOpenFiles": [
+    "🚀 Zone d'Action.md",
+    "🧭 Zone d'Alignement.md",
     "000 🏛Piliers/Untitled.md",
     "000 🏛Piliers/Découverte Artistique.md",
     "000 🏛Piliers/Bien-être.md",
@@ -91,8 +98,6 @@
     "100 🛆 Fronton/130 🎯 Objectifs/130 🎯 Objectifs.md",
     "100 🛆 Fronton/140 🎨 Missions/140 🎨 Missions.md",
     "100 🛆 Fronton/140 Missions/Profiter d'un lieu de vie confortable.md",
-    "100 🛆 Fronton/140 Missions/Transmission de savoir.md",
-    "100 🛆 Fronton/140 Missions/Bien gérer mes comptes et ma paperasse.md",
-    "100 🛆 Fronton/140 Missions/Vivre des moments forts avec mes proches.md"
+    "100 🛆 Fronton/140 Missions/Transmission de savoir.md"
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "commitMessage": "vault backup: {{date}}",
-  "autoCommitMessage": "vault backup: {{date}}",
+  "commitMessage": "Desktop backup: {{date}}",
+  "autoCommitMessage": "Desktop backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 0,
+  "autoSaveInterval": 2,
   "autoPushInterval": 0,
-  "autoPullInterval": 0,
-  "autoPullOnBoot": false,
+  "autoPullInterval": 10,
+  "autoPullOnBoot": true,
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
@@ -15,10 +15,10 @@
   "syncMethod": "merge",
   "gitPath": "",
   "customMessageOnAutoBackup": false,
-  "autoBackupAfterFileChange": false,
+  "autoBackupAfterFileChange": true,
   "treeStructure": false,
   "refreshSourceControl": true,
   "basePath": "",
   "differentIntervalCommitAndPush": false,
-  "changedFilesInStatusBar": false
+  "changedFilesInStatusBar": true
 }
