@@ -23,7 +23,7 @@ DvActions.getNewFileButton({
     luxon,
     that:this,
     buttonName:"🌄 Nouveau Jour",
-    folder:"200 ♻️ Cycles/210 🌄 Days",
+    folder:"200 ♻️ Cycles/210 🌄 Jours",
     split:true,
     nameFormat: "yyyy-MM-dd",
 })

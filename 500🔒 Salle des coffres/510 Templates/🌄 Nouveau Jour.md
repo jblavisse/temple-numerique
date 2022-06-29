@@ -11,10 +11,10 @@ date: <% tp.file.creation_date() %>
 [[<% tp.date.now("YYYY-MM-DD", -1) %>]] <=> [[<% tp.date.now("YYYY-MM-DD", 1) %>]]
 
 # 🌄 <% tp.date.now(format="dddd, MMM Do") %>
-Week:: [[<% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>]]
-Month:: [[<% tp.date.now("YYYY-MM") %>|<% tp.date.now("MMMM") %>]]
-Quarter:: [[<% tp.date.now("YYYY") %>Q<% tp.date.now("Q") %>]]
-Year:: [[<% tp.date.now("YYYY") %>]]
+Semaine:: [[<% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>]]
+Mois:: [[<% tp.date.now("YYYY-MM") %>|<% tp.date.now("MMMM") %>]]
+Trimestre:: [[<% tp.date.now("YYYY") %>Q<% tp.date.now("Q") %>]]
+Année:: [[<% tp.date.now("YYYY") %>]]
 ```dataview
 TABLE WITHOUT ID
 	sleep-start-time AS "Sleep Start Time",

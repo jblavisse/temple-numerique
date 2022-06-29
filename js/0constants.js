@@ -5,11 +5,11 @@ class Constants {
         // Action Status
         this.action.status = {
             active: "🟢 Active",
-            breakdown: "➗ Breakdown",
-            delegate: "🎁 Delegate",
-            nextUp: "🔜 Follow Up",
-            done: "☑️ Done",
-            removed: "✖️ Removed",
+            breakdown: "➗ En attente",
+            delegate: "🎁 Deléguer",
+            nextUp: "🔜 Prochainement",
+            done: "☑️ Finie",
+            removed: "❌ Supprimée",
         };
         this.action.status.orderedMap = new Map();
         this.action.status.orderedMap.set(this.action.status.active, 0);
@@ -23,10 +23,10 @@ class Constants {
             immediate: "🟧 👀",
             quick: "⬜️ 💨",
             scheduled: "🟪 ⌚️",
-            one: "🟥 1st",
-            two: "🟩 2nd",
-            three: "🟦 3rd",
-            four: "🟧 4th",
+            one: "🟥 1ère",
+            two: "🟩 2nde",
+            three: "🟦 3ème",
+            four: "🟧 4ème",
         };
         this.action.priority.orderedMap = new Map();
         this.action.priority.orderedMap.set(this.action.priority.immediate, 0);
@@ -41,11 +41,11 @@ class Constants {
         this.project = {};
         // Project Status
         this.project.status = {
-            active: "🟢 Active",
-            nextUp: "🔜 Next Up",
-            onHold: "⏸ On Hold",
-            future: "✨ Future",
-            completed: "☑️ Completed",
+            active: "🟢 Actif",
+            nextUp: "🔜 Prochainement",
+            onHold: "⏸ Sur pause",
+            future: "✨ Plus tard",
+            completed: "☑️ Complété",
         };
         this.project.status.orderedMap = new Map();
         this.project.status.orderedMap.set(this.project.status.active, 0);
@@ -58,9 +58,9 @@ class Constants {
         this.outcome = {};
         // Outcome Status
         this.outcome.status = {
-            underway: "🟢 Underway",
-            notStarted: "✨ Not Started",
-            completed: "☑️ Completed",
+            underway: "🟢 En cours",
+            notStarted: "✨ Pas commencé",
+            completed: "☑️ Complété",
         };
         this.outcome.status.orderedMap = new Map();
         this.outcome.status.orderedMap.set(this.outcome.status.underway, 0);
@@ -71,11 +71,11 @@ class Constants {
         this.objective = {};
         // Outcome Status
         this.objective.status = {
-            offTrack: "🚨 Off Track",
-            underway: "🟢 Underway",
-            paused: "⏸ Paused",
-            waiting: "✨ Waiting",
-            completed: "☑️ Completed",
+            offTrack: "🚨 Hors piste",
+            underway: "🟢 En cours",
+            paused: "⏸ À l'arrêt",
+            waiting: "✨ En attente",
+            completed: "☑️ Complété",
         };
         this.objective.status.orderedMap = new Map();
         this.objective.status.orderedMap.set(this.objective.status.offTrack, 0);

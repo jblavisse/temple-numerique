@@ -2,7 +2,7 @@
 /// Actions for Today Table
 // ```dataviewjs
 // const {DvActions} = customJS
-// DvActions.getTodayActionTable({app, dv, luxon, that:this}) 
+// DvActions.getTodayActionTable({app, dv, luxon, that:this})
 // ```
 /// Action Done/Undo Button
 // ```dataviewjs
@@ -316,7 +316,7 @@ class DvActions {
                 filePath,
                 project,
             } = args;
-    
+
             let file = await ObsidianUtils.createNewNoteInVaultAndOpen(args);
             // Wait for file to be created.
             await new Promise(r => setTimeout(r, 300));
@@ -328,7 +328,7 @@ class DvActions {
             app,
             el: that.container,
             args: {
-                name: "🛠 New Action",
+                name: "🛠 Nouvelle Action",
                 color: "purple",
                 class: "dataview-button",
             },
@@ -338,7 +338,7 @@ class DvActions {
                     app,
                     dv,
                     project,
-                    filePath: `300 🚰 Pipelines/320 🛠 Actions/${luxon.DateTime.now().toFormat("yyyyMMddHHmmss")}.md`,
+                    filePath: `100 🛆 Fronton/110 🛠 Actions/${luxon.DateTime.now().toFormat("yyyyMMddHHmmss")}.md`,
                     contents: "",
                     split: true
                 }]

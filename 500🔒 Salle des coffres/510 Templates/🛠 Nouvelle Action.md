@@ -1,6 +1,6 @@
 ---
 alias:
-- 🛠 New Action
+- 🛠 Nouvelle Action
 tags:
 - action
 created: <% tp.file.creation_date() %>
