@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "529245822ce5883b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5818c308b2285fe",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "597fc43af99d8dee",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f471e1152f59c6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83500ca940c3ff19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f7c3e6781ec23de4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aeedcb6c6b342ce2",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa5dd89d7276095d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "775f7deeb0fdd3de",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e5818c308b2285fe",
+  "lastOpenFiles": [
+    "000 🏛Piliers/Untitled.md",
+    "000 🏛Piliers/Découverte Artistique.md",
+    "000 🏛Piliers/Bien-être.md",
+    "000 🏛Piliers/Admin Pro & Equipe.md",
+    "100 🛆 Fronton/130 🎯 Objectifs/130 🎯 Objectifs.md",
+    "100 🛆 Fronton/140 🎨 Missions/140 🎨 Missions.md",
+    "100 🛆 Fronton/140 Missions/Profiter d'un lieu de vie confortable.md",
+    "100 🛆 Fronton/140 Missions/Transmission de savoir.md",
+    "100 🛆 Fronton/140 Missions/Bien gérer mes comptes et ma paperasse.md",
+    "100 🛆 Fronton/140 Missions/Vivre des moments forts avec mes proches.md"
+  ]
+}
