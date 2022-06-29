@@ -37,33 +37,18 @@ const {DvActions, ObsidianUtils} = customJS;
 //DvActions.getTodayActionTable({app, dv, luxon, that:this})
 
 let today = luxon.DateTime.now();
-let birthdays = dv.pages("#person")
-    .where(p => p["birthday"])
-    .mutate(p => {
-        p["birthday-obj"] = luxon.DateTime.fromISO(p["birthday"].path);
-        p["birthday-this-year-obj"] = p["birthday-obj"].set({year: today.year});
-    })
-    .where(p => p["birthday-this-year-obj"] < today.plus(luxon.Duration.fromISO("P1W")) && p["birthday-this-year-obj"] >= today)
-;
 
 let todayActions = DvActions.getDoToday({luxon, dv});
 dv.table(
-    ["Item", "Priority", "Do Date", "Status", "Projects", ""],
-    birthdays.map(b => [
-        b.file.link,
-        "🎂🔜",
-        `[[${b["birthday-this-year-obj"].toFormat("yyyy-MM-dd")}]]`,
-
-    ]).concat(
-        todayActions.map(action => [
-            ObsidianUtils.getDisplayLink(action.file.name, action.alias[0]),
-            action["priority"],
-            action["do-date"],
-            action["status"],
-            action["projects"],
-            DvActions.getActionDoneButton({that:this, action, app, luxon})
-        ])
-    )
+   ["Item", "Priorité", "Date Cible", "Status", "Projets", ""],
+   todayActions.map(action => [
+       ObsidianUtils.getDisplayLink(action.file.name, action.alias[0]),
+       action["priority"],
+       action["do-date"],
+       action["status"],
+       action["projects"],
+       DvActions.getActionDoneButton({that:this, action, app, luxon})
+   ])
 );
 ```
 
@@ -77,7 +62,7 @@ let tomorrow = luxon.DateTime.now().plus(luxon.Duration.fromMillis(86400000)); /
 dv.el("p", "🌄 " + dv.fileLink(tomorrow.toFormat("yyyy-MM-dd")));
 let tomorrowActions = DvActions.getActiveActions({luxon, dv, start: tomorrow.startOf('day'), end: tomorrow.endOf('day')});
 dv.table(
-    ["Item", "Priority", "Do Date", "Status", "Projects", ""],
+    ["Item", "Priorité", "Date Cible", "Status", "Projets", ""],
     tomorrowActions.map(action => [
         ObsidianUtils.getDisplayLink(action.file.name, action.alias[0]),
         action["priority"],
@@ -106,7 +91,7 @@ let groupedNext7Days = sevenDaysActions.groupBy(action => action["do-date"]);
 for (let day of groupedNext7Days) {
     dv.header(3, day.key);
     dv.table(
-        ["Item", "Priority", "Status", "Projects"],
+        ["Item", "Priorité", "Status", "Projets"],
         day.rows
             .map(action => [
                 ObsidianUtils.getDisplayLink(action.file.name, action.alias[0]),
@@ -121,6 +106,7 @@ for (let day of groupedNext7Days) {
 ## Calendrier - Dates Cibles
 
 ```dataviewjs
+/*
 const { DvActions } = customJS;
 const { renderCalendar } = app.plugins.plugins["obsidian-full-calendar"];
 let now = luxon.DateTime.now();
@@ -148,4 +134,5 @@ let calendar = renderCalendar(
     actions
 );
 calendar.render();
+*/
 ```

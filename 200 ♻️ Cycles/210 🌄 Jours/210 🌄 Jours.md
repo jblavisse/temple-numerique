@@ -1,11 +1,11 @@
 ---
 alias:
-- 🌄 Days
+- 🌄 Jours
 tags:
 - dashboard
 ---
 
-# 🌄 Days
+# 🌄 Jours
 
 ```dataviewjs
 const {DvActions} = customJS
@@ -14,14 +14,14 @@ DvActions.getNewFileButton({
     dv,
     luxon,
     that:this,
-    buttonName:"🌄 New Day",
-    folder:"500 ♽ Cycles/520 🌄 Days",
+    buttonName:"🌄 Nouveau Jour",
+    folder:"200 ♻️ Cycles/210 🌄 Jours",
     nameFormat:"yyyy-MM-dd",
     split:true
 })
 ```
 
-## Last 7 Days
+## Les 7 Derniers Jours
 
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;

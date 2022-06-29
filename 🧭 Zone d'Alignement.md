@@ -4,12 +4,12 @@ tags:
 icon: 🧭
 ---
 
-# Insight
+# Zone d’Alignement
 
-## 🧭 Guiding Principles
+## 🧭 Ligne Directrice
 ![[003 🧭 Guiding Principles#🧭 Guiding Principles]]
 
-## Review Cycles
+## Cycles
 
 ## Weekly Insight
 
