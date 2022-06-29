@@ -13,8 +13,8 @@ DvActions.getNewFileButton({
     dv,
     luxon,
     that:this,
-    buttonName:"🛠 New Action",
-    folder:"300 🚰 Pipelines/320 🛠 Actions",
+    buttonName:"🛠 Nouvelle Action",
+    folder:"100 🛆 Fronton/110 🛠 Actions",
     split:true
 })
 DvActions.getNewFileButton({
@@ -22,19 +22,10 @@ DvActions.getNewFileButton({
     dv,
     luxon,
     that:this,
-    buttonName:"🌄 New Day",
-    folder:"500 ♽ Cycles/520 🌄 Days",
+    buttonName:"🌄 Nouveau Jour",
+    folder:"200 ♻️ Cycles/210 🌄 Days",
     split:true,
     nameFormat: "yyyy-MM-dd",
-})
-DvActions.getNewFileButton({
-    app,
-    dv,
-    luxon,
-    that:this,
-    buttonName:"📝 New Note",
-    folder:"700 Vaults/Notes",
-    split:true,
 })
 ```
 
