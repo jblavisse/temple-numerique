@@ -26,7 +26,7 @@ let activeProjects = projects
     .where(p => p["status"] == Constants.project.status.active)
     .sort(p => p["priority"], 'asc');
 dv.table(
-    ["Project", "Priority", "Quarter", "Status"],
+    ["Projet", "Priorité", "Trimestre", "Status"],
     activeProjects.map(p => [
         p.file.link,
         p["priority"],

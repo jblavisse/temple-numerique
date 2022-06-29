@@ -42,7 +42,7 @@ title: "\U0001F5A5️ Centre de Commandes"
     - [[110 🛠 Actions|🛠 Actions]]
     - [[120 🧗 Projets|🧗 Projets]]
     - [[130 🎯 Objectifs|🎯 Objectifs]]
-    - [[Et|🎨 Missions]]
+    - [[140 🎨 Missions|🎨 Missions]]
 
 
 
