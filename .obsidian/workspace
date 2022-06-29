@@ -6,20 +6,10 @@
       {
         "id": "e5818c308b2285fe",
         "type": "leaf",
-        "dimension": 25.665399239543724,
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
-      },
-      {
-        "id": "f5b1ebeddf17d7b5",
-        "type": "leaf",
-        "dimension": 74.33460076045627,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "500🔒 Salle des coffres/510 Templates/🛠 Nouvelle Action.md",
+            "file": "🚀 Zone d'Action.md",
             "mode": "source",
             "source": false
           }
@@ -79,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "500🔒 Salle des coffres/510 Templates/🛠 Nouvelle Action.md",
+                "file": "🚀 Zone d'Action.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f5b1ebeddf17d7b5",
+  "active": "e5818c308b2285fe",
   "lastOpenFiles": [
+    "🚀 Zone d'Action.md",
+    "200 ♻️ Cycles/210 🌄 Jours/2022-06-29.md",
+    "200 ♻️ Cycles/210 🌄 Jours/210 🌄 Jours.md",
+    "500🔒 Salle des coffres/510 Templates/🌄 Nouveau Jour.md",
     "500🔒 Salle des coffres/510 Templates/🛠 Nouvelle Action.md",
     "100 🛆 Fronton/110 🛠 Actions/20220629120537.md",
-    "🚀 Zone d'Action.md",
-    "500🔒 Salle des coffres/510 Templates/🌄 Nouveau Jour.md",
     "2022-06-30.md",
     "100 🛆 Fronton/110 🛠 Actions/110 🛠 Actions.md",
     "100 🛆 Fronton/110 🛠 Actions/20220629114946.md",
-    "🧭 Zone d'Alignement.md",
-    "🖥 Centre de Commandes.md",
-    "🔮 Labo de Connaissances.md"
+    "🧭 Zone d'Alignement.md"
   ]
 }

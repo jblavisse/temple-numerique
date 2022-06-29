@@ -64,9 +64,3 @@ dv.table(
 	["Action", "Priority", "Do Date", "Status"],
     sortedActions.map(p => ["[["+p.file.name+ "|"+p.alias[0].substring(0, 60)+"]]" , p["Priority"], p["Do Date"], p["Status"]]));
 ```
-
-Improvements:: 
-
-```toggl
-SUMMARY FROM <% tp.date.now("YYYY-MM-DD") %> TO <% tp.date.now("YYYY-MM-DD") %>
-```
