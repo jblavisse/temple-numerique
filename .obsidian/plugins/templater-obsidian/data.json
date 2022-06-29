@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "500🔒 Salle des coffres/510 Templates",
+  "templates_folder": "500🔒 Salle des Coffres/510 Templates",
   "templates_pairs": [
     [
       "",
@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "100 🛆 Fronton/110 🛠 Actions",
-      "template": "500🔒 Salle des coffres/510 Templates/🛠 Nouvelle Action.md"
+      "template": "500🔒 Salle des Coffres/510 Templates/🛠 Nouvelle Action.md"
     },
     {
       "folder": "100 🛆 Fronton/120 🧗 Projets",

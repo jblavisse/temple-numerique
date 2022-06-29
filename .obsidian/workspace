@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4c43a20c2ffc8dd3",
+        "id": "707a359a95344939",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "🧭 Zone d'Alignement.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧭 Zone d'Alignement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4c43a20c2ffc8dd3",
+  "active": "707a359a95344939",
   "lastOpenFiles": [
+    "000 🏛Piliers/Untitled.md",
+    "🚀 Zone d'Action.md",
+    "100 🛆 Fronton/110 🛠 Actions/20220629160919.md",
+    "100 🛆 Fronton/110 🛠 Actions/20220629160730.md",
+    "200 ♻️ Cycles/210 🌄 Jours/2022-06-29.md",
     "🧭 Zone d'Alignement.md",
     "🖥 Centre de Commandes.md",
     "100 🛆 Fronton/130 🎯 Objectifs/130 🎯 Objectifs.md",
     "200 ♻️ Cycles/220 🗓 Semaines/220 🗓 Semaines.md",
-    "200 ♻️ Cycles/240 ⌛️ Trimestres/240 ⌛️ Trimestres.md",
-    "200 ♻️ Cycles/230 📅 Mois/230 📅 Mois.md",
-    "200 ♻️ Cycles/230 📅 Mois/2022-06.md",
-    "200 ♻️ Cycles/210 🌄 Jours/210 🌄 Jours.md",
-    "🚀 Zone d'Action.md",
-    "100 🛆 Fronton/110 🛠 Actions/110 🛠 Actions.md"
+    "200 ♻️ Cycles/240 ⌛️ Trimestres/240 ⌛️ Trimestres.md"
   ]
 }
