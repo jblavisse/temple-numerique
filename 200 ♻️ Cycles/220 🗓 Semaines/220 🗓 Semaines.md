@@ -1,11 +1,11 @@
 ---
 alias:
-- 🗓 Weeks
+- 🗓 Semaines
 tags:
 - dashboard
 ---
 
-# 🗓 Weeks
+# 🗓 Semaines
 
 ```dataviewjs
 const {DvActions} = customJS
@@ -14,14 +14,14 @@ DvActions.getNewFileButton({
     dv,
     luxon,
     that:this,
-    buttonName:"🗓 New Week",
-    folder:"500 ♽ Cycles/530 🗓 Weeks",
+    buttonName:"🗓 Nouvelle Semaine",
+    folder:"200 ♻️ Cycles/520 🗓 Semaines",
     nameFormat:"yyyy'-W'WW",
     split:true
 })
 ```
 
-## Last 4 Weeks
+## Les 4 Dernières Semaines
 
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;

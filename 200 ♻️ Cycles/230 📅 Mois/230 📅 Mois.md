@@ -1,11 +1,11 @@
 ---
 alias:
-- 📅 Months
+- 📅 Mois
 tags:
 - dashboard
 ---
 
-# 📅 Months
+# 📅 Mois
 
 ```dataviewjs
 const {DvActions} = customJS
@@ -14,14 +14,14 @@ DvActions.getNewFileButton({
     dv,
     luxon,
     that:this,
-    buttonName:"📅 New Month",
-    folder:"500 ♽ Cycles/550 📅 Months",
+    buttonName:"📅 Nouveau Mois",
+    folder:"200 ♻️ Cycles/230 📅 Mois",
     nameFormat:"yyyy-MM",
     split:true
 })
 ```
 
-## Last 3 Months
+## Les 3 derniers mois
 
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;
@@ -34,7 +34,7 @@ let recentMonths = months
     .sort(p => p.file.name, 'desc');
 
 dv.table(
-    ["Month", "Wins", "Challenges", "Improvements", "Reviewed"],
+    ["Mois", "Victoires", "Challenges", "Améliorations", "Revu"],
     recentMonths.map(p => [
         p.file.link,
         p["wins"],
