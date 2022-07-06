@@ -2,8 +2,8 @@
   "calendarSources": [
     {
       "type": "local",
-      "color": "#900fb3",
-      "directory": "100 🛆 Fronton/110 🛠 Actions"
+      "color": "hsl( 201, 17%, calc(60% - 12%) )",
+      "directory": "100 🛆 Processus/110 🛠 Actions"
     }
   ],
   "defaultCalendar": 0,

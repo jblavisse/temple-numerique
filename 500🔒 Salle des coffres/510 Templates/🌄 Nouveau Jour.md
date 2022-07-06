@@ -10,7 +10,7 @@ création: <% tp.file.creation_date() %>
 ---
 [[<% tp.date.now("YYYY-MM-DD", -1) %>]] <=> [[<% tp.date.now("YYYY-MM-DD", 1) %>]]
 
-# 🌄 <% tp.date(format="dddd D MMMM") %>
+# 🌄 <% tp.date.now(format="dddd D MMMM") %>
 Semaine:: [[<% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>]]
 Mois:: [[<% tp.date.now("YYYY-MM") %>|<% tp.date.now("MMMM") %>]]
 Trimestre:: [[<% tp.date.now("YYYY") %>Q<% tp.date.now("Q") %>]]
@@ -21,10 +21,10 @@ Année:: [[<% tp.date.now("YYYY") %>]]
 ### Instant gratitude
 > ?
 
-### Ce qui rendrait ma journée géniale
+### 1 à 3 items qui, si complétées, rendront ma journée géniale
 - 
 
-## Actions du jour
+### Actions du jour
  ```dataviewjs
 const {DvActions} = customJS
 DvActions.getTodayActionTable({app, dv, luxon, that:this})
