@@ -3,6 +3,7 @@
   "hiddenCommands": [
     "Templater",
     "Open Markdown importer",
-    "Open command palette"
+    "Open command palette",
+    "Open today's daily note"
   ]
 }

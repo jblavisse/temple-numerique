@@ -1,11 +1,11 @@
 ---
 alias:
-- 🌏 Years
+- 🌏 Années
 tags:
 - dashboard
 ---
 
-# 🌏 Years
+# 🌏 Années
 
 ```dataviewjs
 const {DvActions} = customJS
@@ -21,7 +21,7 @@ DvActions.getNewFileButton({
 })
 ```
 
-## Years
+## Années
 
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;

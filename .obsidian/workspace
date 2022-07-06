@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c1949bd2cf398182",
+        "id": "05e4a40640d3dac8",
         "type": "leaf",
         "state": {
-          "type": "full-calendar-view",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "500🔒 Salle des Coffres/510 Templates/🌄 Nouveau Jour.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "500🔒 Salle des Coffres/510 Templates/🌄 Nouveau Jour.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,17 +95,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c1949bd2cf398182",
+  "active": "05e4a40640d3dac8",
   "lastOpenFiles": [
+    "500🔒 Salle des Coffres/510 Templates/🌄 Nouveau Jour.md",
     "200 ♻️ Cycles/210 🌄 Jours/2022-07-06.md",
-    "2022-06.md",
-    "2022-07-05.md",
-    "200 ♻️ Cycles/230 📅 Mois/2022-07.md",
-    "200 ♻️ Cycles/220 🗓 Semaines/2022-W27.md",
-    "500🔒 Salle des Coffres/510 Templates/🗓 Nouvelle Semaine.md",
-    "500🔒 Salle des Coffres/510 Templates/📝 Nouvelle Note.md",
-    "500🔒 Salle des Coffres/510 Templates/📅 Nouveau Mois.md",
-    "500🔒 Salle des Coffres/510 Templates/⌛️ Nouveau Trimestre.md",
-    "200 ♻️ Cycles/210 🌄 Jours/2022-07-05.md"
+    "100 🛆 Processus/120 🧗 Projets/120 🧗 Projets.md",
+    "🚀 Zone d'Action.md",
+    "200 ♻️ Cycles/210 🌄 Jours/210 🌄 Jours.md",
+    "200 ♻️ Cycles/260 Routines/260 Routines.md",
+    "2022-07-07.md",
+    "200 ♻️ Cycles/250 🌏 Années/250 🌏 Années.md",
+    "200 ♻️ Cycles/240 ⌛️ Trimestres/240 ⌛️ Trimestres.md",
+    "200 ♻️ Cycles/230 📅 Mois/230 📅 Mois.md"
   ]
 }

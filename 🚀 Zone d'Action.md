@@ -1,7 +1,7 @@
 ---
 tags:
-- dashboard
-title: 🚀 Action Zone
+- tableau_de_bord
+title: 🚀 Zone d'Action
 ---
 
 
@@ -14,7 +14,7 @@ DvActions.getNewFileButton({
     luxon,
     that:this,
     buttonName:"🛠 Nouvelle Action",
-    folder:"100 🛆 Fronton/110 🛠 Actions",
+    folder:"100 🛆 Processus/110 🛠 Actions",
     split:true
 })
 ```
@@ -30,7 +30,7 @@ let today = luxon.DateTime.now();
 
 let todayActions = DvActions.getDoToday({luxon, dv});
 dv.table(
-   ["Item", "Priorité", "Date Cible", "Status", "Projets", ""],
+   ["Item", "Priorité", "Date Cible", "Statut", "Projets", ""],
    todayActions.map(action => [
        ObsidianUtils.getDisplayLink(action.file.name, action.alias[0]),
        action["priority"],
@@ -52,7 +52,7 @@ let tomorrow = luxon.DateTime.now().plus(luxon.Duration.fromMillis(86400000)); /
 dv.el("p", "🌄 " + dv.fileLink(tomorrow.toFormat("yyyy-MM-dd")));
 let tomorrowActions = DvActions.getActiveActions({luxon, dv, start: tomorrow.startOf('day'), end: tomorrow.endOf('day')});
 dv.table(
-    ["Item", "Priorité", "Date Cible", "Status", "Projets", ""],
+    ["Item", "Priorité", "Date Cible", "Statut", "Projets", ""],
     tomorrowActions.map(action => [
         ObsidianUtils.getDisplayLink(action.file.name, action.alias[0]),
         action["priority"],
