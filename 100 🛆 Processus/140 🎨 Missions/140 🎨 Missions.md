@@ -2,7 +2,7 @@
 alias:
 - 🎨 Missions
 tags:
-- dashboard
+- tableau_de_bord
 ---
 # 🎨 Missions
 

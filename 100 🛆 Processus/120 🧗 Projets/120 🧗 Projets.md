@@ -2,7 +2,7 @@
 alias:
 - 🧗 Projets
 tags:
-- dashboard
+- tableau_de_bord
 ---
 
 # 🧗 Projets

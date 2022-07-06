@@ -43,7 +43,7 @@ let todayActions = this.current().file.inlinks
     .where(p => p["status"] == Constants.action.status.done);
 let sortedActions = ObsidianUtils.sortActions(todayActions);
 dv.table(
-	["Action", "Priority", "Do Date", "Status"],
+	["Action", "Priority", "Do Date", "Statut"],
     sortedActions.map(p => ["[["+p.file.name+ "|"+p.alias[0].substring(0, 60)+"]]" , p["Priority"], p["Do Date"], p["Status"]]));
 ```
 

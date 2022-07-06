@@ -2,7 +2,7 @@
 alias:
 - 🛠 Actions
 tags:
-- dashboard
+- tableau_de_bord
 title: 🛠 Actions
 ---
 

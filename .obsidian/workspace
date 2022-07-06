@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2cd0ae6221bfd036",
+        "id": "f844d570945ead6f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-07-05.md",
+            "file": "200 ♻️ Cycles/210 🌄 Jours/2022-07-06.md",
             "mode": "source",
             "source": false
           }
@@ -41,7 +41,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-07-05.md",
+                "file": "200 ♻️ Cycles/210 🌄 Jours/2022-07-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2cd0ae6221bfd036",
+  "active": "f844d570945ead6f",
   "lastOpenFiles": [
-    "2022-07-05.md",
     "200 ♻️ Cycles/210 🌄 Jours/2022-07-06.md",
+    "500🔒 Salle des Coffres/510 Templates/📅 Nouveau Mois.md",
+    "500🔒 Salle des Coffres/510 Templates/🎯 Nouvel Objectif.md",
+    "500🔒 Salle des Coffres/510 Templates/🎨 Nouvelle Mission.md",
+    "500🔒 Salle des Coffres/510 Templates/🌏 Nouvelle Année.md",
     "500🔒 Salle des Coffres/510 Templates/🌄 Nouveau Jour.md",
-    "200 ♻️ Cycles/210 🌄 Jours/2022-07-21.md",
-    "200 ♻️ Cycles/210 🌄 Jours/2022-07-27.md",
-    "200 ♻️ Cycles/210 🌄 Jours/2022-07-29.md",
-    "200 ♻️ Cycles/210 🌄 Jours/2022-07-22.md",
-    "200 ♻️ Cycles/210 🌄 Jours/2022-07-23.md",
-    "200 ♻️ Cycles/210 🌄 Jours/2022-07-07.md",
-    "☯️ Mental Clarity.md"
+    "500🔒 Salle des Coffres/510 Templates/🏛 Nouveau Pilier.md",
+    "300 ⚙️ Machine à Contenu/300 ⚙️ Machine à Contenu.md",
+    "100 🛆 Processus/110 🛠 Actions/110 🛠 Actions.md",
+    "100 🛆 Processus/140 🎨 Missions/140 🎨 Missions.md"
   ]
 }

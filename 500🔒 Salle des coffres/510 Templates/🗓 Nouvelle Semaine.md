@@ -1,12 +1,12 @@
 ---
 alias:
-- 🗓 <% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>
-- <% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>
+- 🗓 <% tp.date.now("YYYY") %>-S<% tp.date.now("WW") %>
+- <% tp.date.now("YYYY") %>-S<% tp.date.now("WW") %>
 tags:
 - semaine
 ---
 
-# 🗓 <% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>
+# 🗓 <% tp.date.now("YYYY") %>-S<% tp.date.now("WW") %>
 [[<% tp.date.weekday("YYYY-MM-DD", 1) %>]] => [[<% tp.date.weekday("YYYY-MM-DD", 7) %>]]
 Année:: [[<% tp.date.now("YYYY") %>]]
 Trimestre:: [[<% tp.date.now("YYYY") %>Q<% tp.date.now("Q") %>]]
@@ -42,35 +42,16 @@ SUMMARY FROM <% tp.date.weekday("YYYY-MM-DD", 1) %> TO <% tp.date.weekday("YYYY-
 SORT DESC
 ```
 
-## Daily Thoughts
-
-```dataviewjs
-let week = luxon.DateTime.fromISO(this.current().file.name);
-let weekDays = dv.pages("#day")
-    .where(p => {
-        let day = luxon.DateTime.fromISO(p.file.name);
-        return day >= week.startOf('week') && day <= week.endOf('week')
-    }).sort(d => d.file.name, 'asc');
-for (let day of weekDays) {
-    dv.header("3", day.file.link);
-    dv.el("p", `![[${day.file.path}#Thoughts]]`);
-}
-```
-### Distilled Thoughts
-
-
 ## I. Piliers
 
-### [[003 🧭 Guiding Principles|🧭 Guiding Principles]]
+### Ma ligne directrice
+- [ ] Passer en revue ma [[003 🧭 Guiding Principles|🧭 Guiding Principles]]
 
-### Quarterly Framing
-![[<% tp.date.now("YYYY") %>Q<% tp.date.now("Q") %># 0. Framing]]
 
-### Reflection
-
-- [ ] Add [[710 🏆 Accomplishments]]
+### Réflexion de la semaine
+- [ ] Ajouter des [[710 🏆 Accomplishments]]
 Wins:: 
-- [ ] Add [[😫 Disappointments]]
+- [ ] Ajouter des [[😫 Disappointments]]
 Challenges:: 
 
 ```dataviewjs
@@ -202,5 +183,4 @@ for (let project of activeProjects) {
 - [ ] Review "Waiting" Actions
 
 ## III. Review Finished!
-Reviewed:: 
-- [ ] Add a new [[220 🗓 Semaines|🗓 Weeks]]
+Reviewed::

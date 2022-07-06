@@ -2,7 +2,7 @@
 alias:
 - 🎯 Outcomes
 tags:
-- dashboard
+- tableau_de_bord
 ---
 
 # 🎯 Outcomes

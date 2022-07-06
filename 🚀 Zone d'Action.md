@@ -49,7 +49,7 @@ const {DvActions, ObsidianUtils} = customJS;
 // TODO: Split this out and debug priorty ordering.
 //DvActions.getTodayActionTable({app, dv, luxon, that:this})
 let tomorrow = luxon.DateTime.now().plus(luxon.Duration.fromMillis(86400000)); // 1 day in milliseconds
-dv.el("p", "🌄 " + dv.fileLink(tomorrow.toFormat("yyyy-MM-dd")));
+dv.el("p", "🌄 " + tomorrow.setLocale('fr').toFormat("dd MMMM yyyy"));
 let tomorrowActions = DvActions.getActiveActions({luxon, dv, start: tomorrow.startOf('day'), end: tomorrow.endOf('day')});
 dv.table(
     ["Item", "Priorité", "Date Cible", "Statut", "Projets", ""],
@@ -81,7 +81,7 @@ let groupedNext7Days = sevenDaysActions.groupBy(action => action["do-date"]);
 for (let day of groupedNext7Days) {
     dv.header(3, day.key);
     dv.table(
-        ["Item", "Priorité", "Status", "Projets"],
+        ["Item", "Priorité", "Statut", "Projets"],
         day.rows
             .map(action => [
                 ObsidianUtils.getDisplayLink(action.file.name, action.alias[0]),
@@ -93,36 +93,6 @@ for (let day of groupedNext7Days) {
 }
 ```
 
-## Calendrier - Dates Cibles
 
-```dataviewjs
-/*
-const { DvActions } = customJS;
-const { renderCalendar } = app.plugins.plugins["obsidian-full-calendar"];
-let now = luxon.DateTime.now();
-let nextDays = luxon.Duration.fromISO("P1W");
-let actions = DvActions.getActions({
-    luxon,
-    dv,
-    start: now,
-    end: now.plus(nextDays).endOf('day')
-}).where(a => a["startTime"] != null && a["endTime"] != null);
-actions = actions.map(a => {
-        return {
-            startDate: a["date"],
-            startTime: a["startTime"],
-            endTime: a["endTime"],
-            id: `${a.file.name}`,
-            title: a["title"]
-        }
-    }).array();
 
-dv.el("p", actions)
-
-let calendar = renderCalendar(
-    this.container,
-    actions
-);
-calendar.render();
-*/
-```
+## Projects actifs
