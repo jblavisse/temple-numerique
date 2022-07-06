@@ -1,29 +1,29 @@
 ---
 tags:
-- project
-created: <% tp.file.creation_date() %>
-pillars: []
-outcomes: []
-year: []
-quarter: []
-start:
-finish: 
+- projet
+création: <% tp.file.creation_date() %>
+piliers: []
+objectifs: []
+année: []
+trimestre: []
+début:
+fin: 
 ---
 
-# New Project
+# Nouveau Projet
 
-Priority:: 1
-Pillars:: 
-Outcomes:: 
-Year:: 
-Quarter:: 
-Status:: 
+Priorité:: 1
+Piliers:: 
+Objectifs:: 
+Annnée:: 
+Trimestre:: 
+Statut:: 
 ```dataviewjs
 const {DvActions} = customJS
 DvActions.getProjectStatusButtons({app, dv, luxon, that:this, project:dv.current()})
 ```
 
-## Why?
+## Pourquoi?
 > ？
 
 ## Actions
@@ -39,7 +39,7 @@ DvActions.getNewActionButtonContextAware({
 })
 ```
 
-### Todo
+### A faire
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;
 let projActions = this.current().file.inlinks
@@ -54,7 +54,7 @@ dv.table(
     sortedActions.map(p => ["[["+p.file.name+ "|"+p.alias[0].substring(0, 60)+"]]" , p["Priority"], p["Do Date"], p["Status"]]));
 ```
 
-### Done
+### Terminé
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;
 let projActions = this.current().file.inlinks

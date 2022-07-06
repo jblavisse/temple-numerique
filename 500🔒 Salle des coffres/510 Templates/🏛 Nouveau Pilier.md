@@ -1,7 +1,7 @@
 ---
-pillar-group: 
-status: "Active - CC"
+groupe: 
+status: "Actif - CC"
 tags:
-- pillar
+- pilier
 ---
 # 

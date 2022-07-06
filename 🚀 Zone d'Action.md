@@ -17,16 +17,6 @@ DvActions.getNewFileButton({
     folder:"100 🛆 Fronton/110 🛠 Actions",
     split:true
 })
-DvActions.getNewFileButton({
-    app,
-    dv,
-    luxon,
-    that:this,
-    buttonName:"🌄 Nouveau Jour",
-    folder:"200 ♻️ Cycles/210 🌄 Jours",
-    split:true,
-    nameFormat: "yyyy-MM-dd",
-})
 ```
 
 ## Aujourd'hui

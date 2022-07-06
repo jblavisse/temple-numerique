@@ -1,33 +1,33 @@
 ---
 tags:
 - objective
-created: <% tp.file.creation_date() %>
-pillars: []
-years: []
-category: 
-start: 
-finish: 
+création: <% tp.file.creation_date() %>
+piliers: []
+années: []
+categorie: 
+début: 
+fin: 
 ---
 
-# New Objective
-Priority:: 1
-Pillars:: 
-Years:: 
-Status:: 
+# Nouvelle Mission
+Priorité:: 1
+Pilliers:: 
+Années:: 
+Statut:: 
 ```dataviewjs
 const {DvActions} = customJS
 DvActions.getObjectiveStatusButtons({app, dv, luxon, that:this, objective:dv.current()})
 ```
 
-## Why?
+## Pourquoi?
 > ？
 
-## How?
+## Comment?
 > ?
 
 Challenges:: 
 
-## Outcomes
+## Objectifs
 ```dataviewjs
 const {Constants, ObsidianUtils} = customJS;
 let objectiveOutcomes = this.current().file.inlinks

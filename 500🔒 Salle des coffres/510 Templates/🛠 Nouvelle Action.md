@@ -3,24 +3,23 @@ alias:
 - 🛠 Nouvelle Action
 tags:
 - action
-created: <% tp.file.creation_date() %>
-projects: []
-pillars: []
+création: <% tp.file.creation_date() %>
+projets: []
+piliers: []
 ---
 ```dataviewjs
 const {DvActions} = customJS
 DvActions.getActionPriorityButtons({app, dv, luxon, that:this, action:dv.current()})
 ```
-Priority:: 🟥 1st
-Do Date::
-Done Date:: 
-Projects:: 
-Pillars:: 
-Status:: 🟢 Active
-Owner:: [[Lucas Pickup|Lucas]]
-Next:: 
+Priorité:: 🟥 1ère
+Date Cible::
+Date Finie:: 
+Projets:: 
+Piliers:: 
+Statut:: 🟢 Active
+Prochaine Action:: 
 ```dataviewjs
 const {DvActions} = customJS
 DvActions.getActionStatusButtons({app, dv, luxon, that:this, action:dv.current()})
 ```
-# 🛠 New Action
+# 🛠 Nouvelle Action

@@ -3,18 +3,18 @@ alias:
 - 🗓 <% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>
 - <% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>
 tags:
-- week
+- semaine
 ---
 
 # 🗓 <% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>
 [[<% tp.date.weekday("YYYY-MM-DD", 1) %>]] => [[<% tp.date.weekday("YYYY-MM-DD", 7) %>]]
-Year:: [[<% tp.date.now("YYYY") %>]]
-Quarter:: [[<% tp.date.now("YYYY") %>Q<% tp.date.now("Q") %>]]
-Month:: [[<% tp.date.now("YYYY-MM") %>|<% tp.date.now("MMMM") %>]]
+Année:: [[<% tp.date.now("YYYY") %>]]
+Trimestre:: [[<% tp.date.now("YYYY") %>Q<% tp.date.now("Q") %>]]
+Mois: [[<% tp.date.now("YYYY-MM") %>|<% tp.date.now("MMMM") %>]]
 
 Focus:: 
 
-## Actions Taken
+## Actions Effectuées
 
 ```dataviewjs
 const {DvActions, ObsidianUtils} = customJS;
@@ -42,20 +42,6 @@ SUMMARY FROM <% tp.date.weekday("YYYY-MM-DD", 1) %> TO <% tp.date.weekday("YYYY-
 SORT DESC
 ```
 
-## Health Metrics
-```dataviewjs
-const {DvGraphs} = customJS;
-let week = luxon.DateTime.fromISO(this.current().file.name);
-DvGraphs.getDailyMetricGraphs({
-    that: this,
-    start: week.startOf('week'),
-    end: week.endOf('week'),
-    dv,
-    luxon,
-    window
-});
-```
-
 ## Daily Thoughts
 
 ```dataviewjs
@@ -73,7 +59,7 @@ for (let day of weekDays) {
 ### Distilled Thoughts
 
 
-## I. Pillars
+## I. Piliers
 
 ### [[003 🧭 Guiding Principles|🧭 Guiding Principles]]
 
