@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "200 ♻️ Cycles/210 🌄 Jours/2022-07-06.md",
+            "file": "🖥 Centre de Commandes.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200 ♻️ Cycles/210 🌄 Jours/2022-07-06.md",
+                "file": "🖥 Centre de Commandes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f844d570945ead6f",
   "lastOpenFiles": [
+    "🖥 Centre de Commandes.md",
+    "🧭 Zone d'Alignement.md",
+    "🚀 Zone d'Action.md",
     "200 ♻️ Cycles/210 🌄 Jours/2022-07-06.md",
-    "500🔒 Salle des Coffres/510 Templates/📅 Nouveau Mois.md",
-    "500🔒 Salle des Coffres/510 Templates/🎯 Nouvel Objectif.md",
-    "500🔒 Salle des Coffres/510 Templates/🎨 Nouvelle Mission.md",
-    "500🔒 Salle des Coffres/510 Templates/🌏 Nouvelle Année.md",
-    "500🔒 Salle des Coffres/510 Templates/🌄 Nouveau Jour.md",
-    "500🔒 Salle des Coffres/510 Templates/🏛 Nouveau Pilier.md",
-    "300 ⚙️ Machine à Contenu/300 ⚙️ Machine à Contenu.md",
-    "100 🛆 Processus/110 🛠 Actions/110 🛠 Actions.md",
-    "100 🛆 Processus/140 🎨 Missions/140 🎨 Missions.md"
+    "Labo de Contenu.md",
+    "500🔒 Salle des Coffres/510 Templates/🛠 Nouveau RDV.md",
+    "500🔒 Salle des Coffres/510 Templates/🛠 Nouvelle Action.md",
+    "200 ♻️ Cycles/250 🌏 Années/250 🌏 Années.md",
+    "200 ♻️ Cycles/240 ⌛️ Trimestres/240 ⌛️ Trimestres.md",
+    "200 ♻️ Cycles/230 📅 Mois/230 📅 Mois.md"
   ]
 }
