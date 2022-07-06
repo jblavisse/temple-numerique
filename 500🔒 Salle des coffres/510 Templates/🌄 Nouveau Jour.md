@@ -10,7 +10,7 @@ date: <% tp.file.creation_date() %>
 ---
 [[<% tp.date.now("YYYY-MM-DD", -1) %>]] <=> [[<% tp.date.now("YYYY-MM-DD", 1) %>]]
 
-# 🌄 <% tp.date.now(format="dddd, MMM Do") %>
+# 🌄 <% tp.date.now(format="Dddd Do MMMM") %>
 Semaine:: [[<% tp.date.now("YYYY") %>-W<% tp.date.now("WW") %>]]
 Mois:: [[<% tp.date.now("YYYY-MM") %>|<% tp.date.now("MMMM") %>]]
 Trimestre:: [[<% tp.date.now("YYYY") %>Q<% tp.date.now("Q") %>]]
