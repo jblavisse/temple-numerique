@@ -5,27 +5,31 @@
   "daily": {
     "format": "",
     "template": "500🔒 Salle des Coffres/510 Templates/🌄 Nouveau Jour.md",
-    "folder": "",
+    "folder": "200 ♻️ Cycles/210 🌄 Jours",
     "enabled": true
   },
   "weekly": {
     "format": "",
-    "template": "",
-    "folder": ""
+    "template": "500🔒 Salle des Coffres/510 Templates/🗓 Nouvelle Semaine.md",
+    "folder": "200 ♻️ Cycles/220 🗓 Semaines",
+    "enabled": true
   },
   "monthly": {
     "format": "",
-    "template": "",
-    "folder": ""
+    "template": "500🔒 Salle des Coffres/510 Templates/📅 Nouveau Mois.md",
+    "folder": "200 ♻️ Cycles/230 📅 Mois",
+    "enabled": true
   },
   "quarterly": {
     "format": "",
-    "template": "",
-    "folder": ""
+    "template": "500🔒 Salle des Coffres/510 Templates/⌛️ Nouveau Trimestre.md",
+    "folder": "200 ♻️ Cycles/240 ⌛️ Trimestres",
+    "enabled": true
   },
   "yearly": {
     "format": "",
-    "template": "",
-    "folder": ""
+    "template": "500🔒 Salle des Coffres/510 Templates/🌏 Nouvelle Année.md",
+    "folder": "200 ♻️ Cycles/250 🌏 Années",
+    "enabled": true
   }
 }

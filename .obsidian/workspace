@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7ce152ac0fd9a886",
+        "id": "c1949bd2cf398182",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "🚀 Zone d'Action.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "full-calendar-view",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🚀 Zone d'Action.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,25 +74,33 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "7da0d8b85db717cb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "7ce152ac0fd9a886",
+  "active": "c1949bd2cf398182",
   "lastOpenFiles": [
-    "🚀 Zone d'Action.md",
-    "🧭 Zone d'Alignement.md",
-    "🔮 Puits de Connaissances.md",
+    "200 ♻️ Cycles/210 🌄 Jours/2022-07-06.md",
+    "2022-06.md",
+    "2022-07-05.md",
+    "200 ♻️ Cycles/230 📅 Mois/2022-07.md",
+    "200 ♻️ Cycles/220 🗓 Semaines/2022-W27.md",
+    "500🔒 Salle des Coffres/510 Templates/🗓 Nouvelle Semaine.md",
+    "500🔒 Salle des Coffres/510 Templates/📝 Nouvelle Note.md",
+    "500🔒 Salle des Coffres/510 Templates/📅 Nouveau Mois.md",
     "500🔒 Salle des Coffres/510 Templates/⌛️ Nouveau Trimestre.md",
-    "500🔒 Salle des Coffres/510 Templates/🎯 Nouvel Objectif.md",
-    "500🔒 Salle des Coffres/510 Templates/🎨 Nouvelle Mission.md",
-    "500🔒 Salle des Coffres/510 Templates/🌏 Nouvelle Année.md",
-    "500🔒 Salle des Coffres/510 Templates/🌄 Nouveau Jour.md",
-    "500🔒 Salle des Coffres/510 Templates/🛠 Nouvelle Réunion.md",
-    "500🔒 Salle des Coffres/510 Templates/🛠 Nouvelle Action.md"
+    "200 ♻️ Cycles/210 🌄 Jours/2022-07-05.md"
   ]
 }
