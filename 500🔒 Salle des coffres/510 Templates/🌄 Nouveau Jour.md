@@ -16,14 +16,15 @@ Mois:: [[<% tp.date.now("YYYY-MM") %>|<% tp.date.now("MMMM") %>]]
 Trimestre:: [[<% tp.date.now("YYYY") %>Q<% tp.date.now("Q") %>]]
 Année:: [[<% tp.date.now("YYYY") %>]]
 
-## Instant Gratitude
+## Routine matinale
 
+### Instant gratitude
 > ?
 
-## 1 à 3 items qui, si complétées, rendront ma journée géniale
+### Ce qui rendrait ma journée géniale
 - 
 
-### Actions du jour
+## Actions du jour
  ```dataviewjs
 const {DvActions} = customJS
 DvActions.getTodayActionTable({app, dv, luxon, that:this})
