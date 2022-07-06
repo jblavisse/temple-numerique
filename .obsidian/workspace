@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "262fad2d416defc9",
+        "id": "f151e4d9894c903a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "200 ♻️ Cycles/260 Routines/260 Routines.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "200 ♻️ Cycles/260 Routines/260 Routines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "262fad2d416defc9",
+  "active": "f151e4d9894c903a",
   "lastOpenFiles": [
-    "000 🏛Piliers/Untitled.md",
-    "200 ♻️ Cycles/210 🌄 Jours/210 🌄 Jours.md",
-    "100 🛆 Fronton/120 🧗 Projets/120 🧗 Projets.md",
-    "200 ♻️ Cycles/220 🗓 Semaines/2022-W26.md",
-    "🚀 Zone d'Action.md",
-    "🧭 Zone d'Alignement.md",
-    "🖥 Centre de Commandes.md",
-    "🔮 Labo de Connaissances.md",
-    "200 ♻️ Cycles/210 🌄 Jours/2022-06-29.md",
-    "100 🛆 Fronton/110 🛠 Actions/20220629162035.md"
+    "200 ♻️ Cycles/260 Routines/260 Routines.md",
+    "200 ♻️ Cycles/250 🌏 Années/250 🌏 Années.md",
+    "000 🏛Piliers/00X. Découverte Artistique.md",
+    "000 🏛Piliers/Comptabilité.md",
+    "000 🏛Piliers/Gestion d'équipe.md",
+    "000 🏛Piliers/Prestation Client/MyDigitalSchool.md",
+    "000 🏛Piliers/Prestation Client/Studi.md",
+    "000 🏛Piliers/Prestation Client.md",
+    "000 🏛Piliers/Création de Contenu.md",
+    "000 🏛Piliers/Veille.md"
   ]
 }
