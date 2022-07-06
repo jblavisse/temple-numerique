@@ -5,6 +5,10 @@ tags:
 - dashboard
 ---
 # 🎨 Missions
+
+- Bien gérer mes comptes et ma paperasse
+- Etre passionné par de nouveaux sujets
+
 ## Active
 ```dataviewjs
 const {DvActions} = customJS
