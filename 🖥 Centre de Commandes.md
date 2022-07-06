@@ -9,7 +9,7 @@ title: "\U0001F5A5️ Centre de Commandes"
 ## Focus & Alignement
 [[🚀 Zone d'Action]]
 [[🧭 Zone d'Alignement]]
-[[🔮 Labo de Connaissances]]
+[[🔮 Puits de Connaissances]]
 
 ## Cycles
 - **Cycles de Revue**

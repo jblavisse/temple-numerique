@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f151e4d9894c903a",
+        "id": "b20490ff5d6d821a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 🛆 Fronton/140 🎨 Missions/140 🎨 Missions.md",
+            "file": "000 🏛Piliers/00X. Prestation Client/00X. Prestation Client.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 🛆 Fronton/140 🎨 Missions/140 🎨 Missions.md",
+                "file": "000 🏛Piliers/00X. Prestation Client/00X. Prestation Client.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f151e4d9894c903a",
+  "active": "b20490ff5d6d821a",
   "lastOpenFiles": [
-    "100 🛆 Fronton/140 🎨 Missions/140 🎨 Missions.md",
-    "200 ♻️ Cycles/260 Routines/260 Routines.md",
-    "200 ♻️ Cycles/250 🌏 Années/250 🌏 Années.md",
-    "000 🏛Piliers/00X. Découverte Artistique.md",
-    "000 🏛Piliers/Comptabilité.md",
-    "000 🏛Piliers/Gestion d'équipe.md",
-    "000 🏛Piliers/Prestation Client/MyDigitalSchool.md",
-    "000 🏛Piliers/Prestation Client/Studi.md",
-    "000 🏛Piliers/Prestation Client.md",
-    "000 🏛Piliers/Création de Contenu.md"
+    "000 🏛Piliers/00X. Prestation Client/00X. Prestation Client.md",
+    "000 🏛Piliers/00X. Animation Communauté.md",
+    "000 🏛Piliers/00X. Image de Marque.md",
+    "000 🏛Piliers/10X. Découverte Artistique.md",
+    "000 🏛Piliers/20X. Famille.md",
+    "000 🏛Piliers/Création de Contenu.md",
+    "000 🏛Piliers/20X. Finances Personnelles.md",
+    "000 🏛Piliers/00X Comptabilité.md",
+    "Labo de Contenu.md",
+    "000 🏛Piliers/00X. Production de Contenu.md"
   ]
 }
