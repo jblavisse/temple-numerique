@@ -11,17 +11,8 @@ title: "\U0001F5A5️ Centre de Commandes"
 [[🧭 Zone d'Alignement]]
 [[🔮 Puits de Connaissances]]
 
-## Cycles
-- **Cycles de Revue**
-    - [[210 🌄 Jours|🌄 Jours]]
-    - [[220 🗓 Semaines|🗓 Semaines]]
-    - [[230 📅 Mois|📅 Mois]]
-    - [[240 ⌛️ Trimestres|⌛️ Trimestres]]
-    - [[250 🌏 Années|🌏 Années]]
-
-## Tableaux de bord
-- ###  **Piliers**
-    - [[💗 Health & Fitness]]
+## Piliers
+- ###  **Croissance**
     - [[🤯 Mind Expansion]]
     - [[☯️ Mental Clarity]]
     - [[🎧 Music]]
@@ -29,14 +20,21 @@ title: "\U0001F5A5️ Centre de Commandes"
     - [[🏘 Family]]
     - [[🥰 Love]]
 
-- **Pillars - Work**
+- **Business**
+    - [[1️⃣ AzureML Common Runtime|1️⃣ AzureML Compute Runtime]]
+    - [[🔢 AzureML Data]]
+    - [[➡️ Design the Future]]
+    - [[💻 Individual Contribution (Write Code)|💻 Individual Contribution]]
+    - [[💾 Admin & Team]]
+    
+- **Vie Courante**
     - [[1️⃣ AzureML Common Runtime|1️⃣ AzureML Compute Runtime]]
     - [[🔢 AzureML Data]]
     - [[➡️ Design the Future]]
     - [[💻 Individual Contribution (Write Code)|💻 Individual Contribution]]
     - [[💾 Admin & Team]]
 
-## Fronton
+## Processus
 
 - **Pyramide d'Accomplissement**
     - [[110 🛠 Actions|🛠 Actions]]
@@ -44,6 +42,14 @@ title: "\U0001F5A5️ Centre de Commandes"
     - [[130 🎯 Objectifs|🎯 Objectifs]]
     - [[140 🎨 Missions|🎨 Missions]]
 
+
+## Cycles
+- **Cycles de Revue**
+    - [[210 🌄 Jours|🌄 Jours]]
+    - [[220 🗓 Semaines|🗓 Semaines]]
+    - [[230 📅 Mois|📅 Mois]]
+    - [[240 ⌛️ Trimestres|⌛️ Trimestres]]
+    - [[250 🌏 Années|🌏 Années]]
 
 
 
