@@ -9,7 +9,15 @@ icon: 🧭
 ## 🧭 Ligne Directrice
 ![[003 🧭 Guiding Principles#🧭 Guiding Principles]]
 
+## Missions
+
+
+## Routines
+
+
 ## Cycles
+
+Aperçu Journalier
 
 ### Aperçu Hebdomadaire
 
@@ -49,3 +57,5 @@ dv.table(
     ])
 );
 ```
+
+
