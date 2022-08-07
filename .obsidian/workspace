@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 🛆 Processus/110 🛠 Actions/110 🛠 Actions.md",
+            "file": "🚀 Zone d'Action.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 🛆 Processus/110 🛠 Actions/110 🛠 Actions.md",
+                "file": "🚀 Zone d'Action.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f4c23e65a39f60eb",
   "lastOpenFiles": [
+    "100 🛆 Processus/130 🎯 Objectifs/130 🎯 Objectifs.md",
+    "100 🛆 Processus/120 🧗 Projets/120 🧗 Projets.md",
     "100 🛆 Processus/110 🛠 Actions/110 🛠 Actions.md",
+    "🔮 Puits de Connaissances.md",
     "🧭 Zone d'Alignement.md",
     "🖥 Centre de Commandes.md",
     "500 🔒 Salle des coffres/590 Sources/590 Sources.md",
     "500 🔒 Salle des coffres/580 Snippets/580 Snippets.md",
     "500 🔒 Salle des coffres/570 Pensées/570 Pensées.md",
-    "500 🔒 Salle des coffres/530 Contacts/530 Contacts.md",
-    "🔮 Puits de Connaissances.md",
-    "000 🏛 Piliers/00X. Prestation Client/00X. Prestation Client.md",
-    "000 🏛 Piliers/00X. Jury Titre Pro.md"
+    "500 🔒 Salle des coffres/530 Contacts/530 Contacts.md"
   ]
 }
